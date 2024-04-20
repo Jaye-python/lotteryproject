@@ -45,7 +45,7 @@ python manage.py createsuperuser
 ```
 python manage.py runserver
 ```
-11. To create ticket, send below sample payload to `http://127.0.0.1:8000/api/create-ticket`:
+11. To create ticket, send below sample payload to `http://127.0.0.1:8000/api/create-ticket` via POSTMAN using `raw/json` format:
 ```
 {
     "plays": [
@@ -56,7 +56,7 @@ python manage.py runserver
     "rtp": 20000
 }
 ```
-12. To create draw, send below sample payload to `http://127.0.0.1:8000/api/create-draw/`:
+12. To create draw, send below sample payload to `http://127.0.0.1:8000/api/create-draw/` via POSTMAN using `raw/json` format:
 ```
 {
     "plays": [
