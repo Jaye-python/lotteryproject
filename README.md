@@ -1,5 +1,6 @@
 # Lottery Application
 This is an API-based Django app built using Django Rest Framework. You can Create tickets and draws.
+Sample `sqlite3` database included with models already migrated.
 
 ### To launch this app on your system:
 
@@ -35,23 +36,15 @@ cd lotteryproject
 ```
 pip install -r requirements.txt
 ```
-9. Make migrations (this will auto-create an sqlite3 database for this app. You may interact with the database if you wish)
-```
-python manage.py makemigrations
-```
-10. Migrate
-```
-python manage.py migrate
-```
-11. Create superuser account (Optional)
+9. Create superuser account (Optional)
 ```
 python manage.py createsuperuser
 ```
-12. Launch
+10. Launch application
 ```
 python manage.py runserver
 ```
-13. To create ticket, send below sample payload to `http://127.0.0.1:8000/api/create-ticket`:
+11. To create ticket, send below sample payload to `http://127.0.0.1:8000/api/create-ticket`:
 ```
 {
     "plays": [
@@ -62,7 +55,7 @@ python manage.py runserver
     "rtp": 20000
 }
 ```
-14. To create draw, send below sample payload to `http://127.0.0.1:8000/api/create-draw/`:
+12. To create draw, send below sample payload to `http://127.0.0.1:8000/api/create-draw/`:
 ```
 {
     "plays": [
@@ -80,12 +73,16 @@ python manage.py runserver
     }
 }
 ```  
-15. To check the API documentation, visit either of these:
+13. To check the API documentation, visit either of these:
 ```
 http://127.0.0.1:8000/api/schema/swagger-ui/#/
 http://127.0.0.1:8000/api/schema/redoc/
 ```
-16. `DockerFile` already created, so build image using the file and run container (Optional)
+14. `DockerFile` already created, so build image using the file and run container (Optional)
+15. Launch `VSCode` from terminal (Optional)
+```
+code .
+```
 
 
 
