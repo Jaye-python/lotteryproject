@@ -1,6 +1,7 @@
 # Lottery Application
 This is an API-based Django app built using Django Rest Framework. You can Create tickets and draws.
 Sample `sqlite3` database included with models already migrated.
+Commands below uses `Linux OS`.
 
 ### To launch this app on your system:
 
@@ -36,7 +37,7 @@ cd lotteryproject
 ```
 pip install -r requirements.txt
 ```
-9. Create superuser account (Optional)
+9. Create `superuser` account (Optional)
 ```
 python manage.py createsuperuser
 ```
