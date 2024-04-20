@@ -3,6 +3,13 @@ This is an API-based Django app built using Django Rest Framework. You can Creat
 Sample `sqlite3` database included with models already migrated.
 Commands below uses `Linux OS`.
 
+### Code was optimized by:
+```
+refactoring
+removing unnecessary loops and calculations
+using Python multiprocessing.Pool
+```
+
 ### To launch this app on your system:
 
 1. Navigate to your desktop (or any folder of your choice)
